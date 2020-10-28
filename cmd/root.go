@@ -52,7 +52,7 @@ func init() {
 	// will be global for your application.
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.twitter-man.yaml)")
 
-	rootCmd.PersistentFlags().StringVar(&LogLevel, "log", "info", "log level (")
+	rootCmd.PersistentFlags().StringVar(&LogLevel, "log", "info", "log level")
 }
 
 // initConfig reads in config file and ENV variables if set.

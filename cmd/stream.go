@@ -154,5 +154,5 @@ func debugJSON(item interface{}) {
 func init() {
 	rootCmd.AddCommand(streamCmd)
 	streamCmd.Flags().StringSliceP("tag", "t", []string{}, "Hashtags to stream")
-	streamCmd.Flags().StringP("to_person_email", "e", "", "Webexteams email")
+	streamCmd.Flags().StringP("to_person_email", "e", "", "Webex Teams email")
 }
